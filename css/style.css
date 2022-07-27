@@ -1,12 +1,13 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Robuto', Arial;
 }
 
 nav {
     display: flex;
     background-color: #1F2937;
-
+    height: 50px;
 }
 
 .header-logo {
@@ -37,15 +38,91 @@ ul {
     color: #E5E7EB;
 }
 
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #1F2937;
+    height: 400px;
+}
 
+.main-section-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section-left h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.main-section-left p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.signup-link {
+    color: #E5E7EB;
+    font-size: 18px;
+    background-color: #3882F6;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 6rem;
+    height: 1.5rem;
+    text-align: center;
+}
+
+.information-section {
+    text-align: center;
+    height: 400px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 150px;
+}
+
+.box-one,
+.box-two,
+.box-three,
+.box-four {
+    border-radius: 25px;
+    width: 150px;
+    height: 150px;
+    border: solid #3882F6 2px;
+}
 
 .quote-section {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
 }
 
 .author {
-    align-self: flex-end;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+    text-align: end;
 }
