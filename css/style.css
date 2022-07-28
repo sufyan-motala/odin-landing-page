@@ -7,7 +7,6 @@ body {
 nav {
     display: flex;
     background-color: #1F2937;
-    height: 50px;
 }
 
 .header-logo {
@@ -15,7 +14,7 @@ nav {
     color: #F9FAF8;
     display: flex;
     align-items: center;
-    margin-left: 200px;
+    /* margin-left: 200px; */
 }
 
 .header-links {
@@ -23,14 +22,14 @@ nav {
     display: flex;
     align-items: center;
     margin-left: auto;
-    margin-right: 200px;
+    /* margin-right: 200px; */
 }
 
 ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 2em;
 }
 
 .header-link {
@@ -40,11 +39,12 @@ ul {
 
 .main-section {
     display: flex;
+    flex-flow: wrap;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 2em;
     background-color: #1F2937;
-    height: 400px;
+    padding: 2em;
 }
 
 .main-section-left {
@@ -64,33 +64,41 @@ ul {
     font-size: 18px;
 }
 
+.main-section-right img{
+    max-width: 100%;
+    min-height: 100%;
+}
+
 .signup-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #E5E7EB;
     font-size: 18px;
     background-color: #3882F6;
     text-decoration: none;
     border-radius: 10px;
-    width: 6rem;
-    height: 1.5rem;
-    text-align: center;
+    width: 6em;
+    height: 1.5em;
 }
 
 .information-section {
     text-align: center;
-    height: 400px;
+    padding: 2em;
 }
 
 .cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
+    gap: 2em;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 150px;
+    max-width: 150px;
 }
 
 .box-one,
@@ -98,8 +106,8 @@ ul {
 .box-three,
 .box-four {
     border-radius: 25px;
-    width: 150px;
-    height: 150px;
+    max-width: 150px;
+    min-height: 150px;
     border: solid #3882F6 2px;
 }
 
@@ -109,20 +117,21 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    padding: 2em;
+    gap: 1em;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    width: 800px;
+    max-width: 800px;
 }
 
 .author {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    width: 800px;
+    max-width: 800px;
     text-align: end;
 }
