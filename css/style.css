@@ -1,12 +1,16 @@
-body {
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Robuto', Arial;
+}
+
+body {
+    font-family: Arial;
 }
 
 nav {
     display: flex;
     background-color: #1F2937;
+    padding: 1em;
 }
 
 .header-logo {
@@ -14,7 +18,7 @@ nav {
     color: #F9FAF8;
     display: flex;
     align-items: center;
-    /* margin-left: 200px; */
+    padding-left: 2em;
 }
 
 .header-links {
@@ -22,7 +26,7 @@ nav {
     display: flex;
     align-items: center;
     margin-left: auto;
-    /* margin-right: 200px; */
+    padding-right: 2em;
 }
 
 ul {
@@ -50,6 +54,7 @@ ul {
 .main-section-left {
     display: flex;
     flex-direction: column;
+    padding: 2em;
 }
 
 .main-section-left h1 {
@@ -62,6 +67,7 @@ ul {
 .main-section-left p {
     color: #E5E7EB;
     font-size: 18px;
+    padding: 1em 0 1em 0;
 }
 
 .main-section-right img{
@@ -92,6 +98,7 @@ ul {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2em;
+    padding-top: 1em;
 }
 
 .card {
@@ -109,6 +116,10 @@ ul {
     max-width: 150px;
     min-height: 150px;
     border: solid #3882F6 2px;
+}
+
+.card p {
+    padding-top: 1em;
 }
 
 .quote-section {
