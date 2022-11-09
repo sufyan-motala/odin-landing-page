@@ -1,148 +1,194 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: Arial;
+  font-family: Arial;
 }
 
 nav {
-    display: flex;
-    background-color: #1F2937;
-    padding: 1em;
+  display: flex;
+  background-color: #1f2937;
+  padding: 1em;
 }
 
 .header-logo {
-    font-size: 24px;
-    color: #F9FAF8;
-    display: flex;
-    align-items: center;
-    padding-left: 2em;
+  font-size: 24px;
+  color: #f9faf8;
+  display: flex;
+  align-items: center;
+  padding-left: 2em;
 }
 
 .header-links {
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    padding-right: 2em;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding-right: 2em;
 }
 
 ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    gap: 2em;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
 }
 
 .header-link {
-    text-decoration: none;
-    color: #E5E7EB;
+  text-decoration: none;
+  color: #e5e7eb;
 }
 
 .main-section {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 2em;
-    background-color: #1F2937;
-    padding: 2em;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  background-color: #1f2937;
+  padding: 2em;
 }
 
 .main-section-left {
-    display: flex;
-    flex-direction: column;
-    padding: 2em;
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
 }
 
 .main-section-left h1 {
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: bold;
-    margin: 0;
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
 }
 
 .main-section-left p {
-    color: #E5E7EB;
-    font-size: 18px;
-    padding: 1em 0 1em 0;
+  color: #e5e7eb;
+  font-size: 18px;
+  padding: 1em 0 1em 0;
 }
 
-.main-section-right img{
-    max-width: 100%;
-    min-height: 100%;
+.main-section-right img {
+  max-width: 100%;
+  min-height: 100%;
 }
 
 .signup-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #E5E7EB;
-    font-size: 18px;
-    background-color: #3882F6;
-    text-decoration: none;
-    border-radius: 10px;
-    width: 6em;
-    height: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  font-size: 18px;
+  background-color: #3882f6;
+  text-decoration: none;
+  border-radius: 10px;
+  width: 6em;
+  height: 1.5em;
 }
 
 .information-section {
-    text-align: center;
-    padding: 2em;
+  text-align: center;
+  padding: 2em;
 }
 
 .cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2em;
-    padding-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  padding-top: 1em;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 150px;
 }
 
 .box-one,
 .box-two,
 .box-three,
 .box-four {
-    border-radius: 25px;
-    max-width: 150px;
-    min-height: 150px;
-    border: solid #3882F6 2px;
+  border-radius: 25px;
+  max-width: 150px;
+  min-height: 150px;
+  border: solid #3882f6 2px;
 }
 
 .card p {
-    padding-top: 1em;
+  padding-top: 1em;
 }
 
+/*The CSS for this section is not aligned the best*/
 .quote-section {
-    background-color: #E5E7EB;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2em;
-    gap: 1em;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  gap: 1em;
 }
 
 .quote {
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
-    max-width: 800px;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  max-width: 800px;
 }
 
 .author {
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
-    max-width: 800px;
-    text-align: end;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  max-width: 800px;
+  text-align: end;
+}
+
+/*The CSS for this section is not mobile friendly*/
+.signup-section {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-section-container {
+  display: flex;
+  background-color: #3882f6;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  padding-left: 10em;
+  padding-right: 10em;
+  border-radius: 10px;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.signup-link-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  font-size: 18px;
+  background-color: #3882f6;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 6em;
+  height: 1.5em;
+}
+
+footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100px;
 }
